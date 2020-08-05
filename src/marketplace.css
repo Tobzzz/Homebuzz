@@ -23,7 +23,7 @@
   --backgroundImage: {
     /* Gradient direction and overlaying the black color on top of the image for better readability */
     background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-      url('../../assets/markus-spiske-summer-house-unsplash.jpg');
+      url('../../assets/Box-Park_WR.png');
 
     /* Add loading color for the div */
     background-color: var(--matterColor);
@@ -32,7 +32,7 @@
     background-size: cover;
 
     /* Align the image within the container */
-    background-position: center center;
+    background-position: bottom center;
 
     @media (--viewportLarge) {
       border-radius: 40px;
@@ -42,9 +42,9 @@
 
   /* ================ Colors ================ */
 
-  --marketplaceColor: #2f880a;
-  --marketplaceColorLight:#39a10c;
-  --marketplaceColorDark: #287209;
+  --marketplaceColor: #4312e3;
+  --marketplaceColorLight:#5812e3;
+  --marketplaceColorDark: #3a118d;
 
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23c0392b;
