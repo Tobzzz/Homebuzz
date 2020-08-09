@@ -11,6 +11,10 @@ import css from './SectionLocations.css';
 import brixtonImage from './images/brikky (1).jpg';
 import camdenImage from './images/Camden (1).jpg';
 import shoreditchImage from './images/Shoreditch.jpg';
+import nottinghillImage from './images/Notting hill.jpg';
+import hackneyImage from './images/Hackney Wick.jpg';
+import batterseaImage from './images/Battersea.jpg'
+
 
 class LocationImage extends Component {
   render() {
@@ -53,17 +57,34 @@ const SectionLocations = props => {
         {locationLink(
           'Brixton',
           brixtonImage,
-          '?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002'
+          '?address=London&bounds=51.47030911%2C-0.09591138%2C51.44287872%2C-0.13651028'
         )}
         {locationLink(
           'Camden',
           camdenImage,
-          '?address=Rovaniemi%2C%20Finland&bounds=67.18452510000002%2C27.32667850000007%2C66.1553745%2C24.736871199999996&origin=66.50394779999999%2C25.729390599999988'
+          '?address=London&bounds=51.55273343%2C-0.1219784%2C51.53102291%2C-0.15417167'
         )}
         {locationLink(
           'Shoreditch',
           shoreditchImage,
-          '?address=Ruka%2C%20Finland&bounds=66.1704578%2C29.14246849999995%2C66.1614402%2C29.110453699999994&origin=66.16594940000002%2C29.12646110000003'
+          '?address=Shoreditch%2C%20East%20London&bounds=51.53233597%2C-0.06825022%2C51.51890999%2C-0.08815171'
+        )}
+      </div>
+      <div className={css.locations}>
+        {locationLink(
+          'Hackney Wick',
+          hackneyImage,
+          '?address=London&bounds=51.55758072,-0.00695198,51.53020282,-0.04755087'
+        )}
+        {locationLink(
+          'Notting Hill',
+          nottinghillImage,
+          '?address=London&bounds=51.52289649%2C-0.18761462%2C51.49780958%2C-0.2247888'
+        )}
+        {locationLink(
+          'Battersea',
+          batterseaImage,
+          '?address=London&bounds=51.48180091%2C-0.15616649%2C51.45871592%2C-0.19034412'
         )}
       </div>
     </div>

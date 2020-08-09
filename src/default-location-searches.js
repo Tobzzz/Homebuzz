@@ -9,6 +9,20 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
+    id: 'default-brixton',
+    predictionPlace: {
+      address: 'Brixton, South London',
+      bounds: new LatLngBounds(new LatLng(51.47030911, -0.09591138), new LatLng(51.44287872, -0.13651028)),
+    },
+  },
+  {
+    id: 'default-camden',
+    predictionPlace: {
+      address: 'Camden, Northwest London',
+      bounds: new LatLngBounds(new LatLng(51.55273343, -0.1219784), new LatLng(51.53102291, -0.15417167)),
+    },
+  },
+  {
     id: 'default-shoreditch',
     predictionPlace: {
       address: 'Shoreditch, East London',
@@ -16,31 +30,17 @@ export default [
     },
   },
   {
-    id: 'default-camden',
-    predictionPlace: {
-      address: 'Camden, Northwest London',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
-    },
-  },
-  {
-    id: 'default-brixton',
-    predictionPlace: {
-      address: 'Brixton, South London',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
-    },
-  },
-  {
-    id: 'default-clapham',
-    predictionPlace: {
-      address: 'Clapham, South London',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
-    },
-  },
-  {
-    id: 'default-peckham',
+    id: 'default-hackney',
     predictionPlace: {
       address: 'Hackney Wick, East London',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      bounds: new LatLngBounds(new LatLng(51.55758072, -0.00695198), new LatLng(51.53020282, -0.04755087)),
+    },
+  },
+  {
+    id: 'default-nottinghill',
+    predictionPlace: {
+      address: 'Notting Hill, West London',
+      bounds: new LatLngBounds(new LatLng(51.52289649, -0.18761462), new LatLng(51.49780958, -0.2247888)),
     },
   },
 ];
