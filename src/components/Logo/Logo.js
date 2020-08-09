@@ -3,8 +3,8 @@ import { oneOf, string } from 'prop-types';
 import classNames from 'classnames';
 
 import config from '../../config';
-import MobileLogoImage from './Homebuzz logo.png';
-import DesktopLogoImage from './Homebuzz logo.png';
+import MobileLogoImage from './Homebuzz logo MOB.png';
+import DesktopLogoImage from './Home buzz new logo.png';
 import css from './Logo.css';
 
 const Logo = props => {
