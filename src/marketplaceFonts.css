@@ -129,7 +129,7 @@
 
   --marketplaceH2FontStyles: {
     font-weight: var(--fontWeightSemiBold);
-    font-size: 24px;
+    font-size: 26px;
     line-height: 30px;
     letter-spacing: -0.3px;
     /* margin-top + n * line-height + margin-bottom => x * 6px */
