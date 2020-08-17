@@ -57,6 +57,7 @@ import SectionReviews from './SectionReviews';
 import SectionHostMaybe from './SectionHostMaybe';
 import SectionRulesMaybe from './SectionRulesMaybe';
 import SectionMapMaybe from './SectionMapMaybe';
+import Iframe from 'react-iframe';
 import css from './ListingPage.css';
 
 const MIN_LENGTH_FOR_LONG_WORDS_IN_TITLE = 16;
@@ -440,6 +441,20 @@ export class ListingPageComponent extends Component {
                   <SectionDescriptionMaybe description={description} />
                   <SectionFeaturesMaybe options={amenityOptions} publicData={publicData} />
                   <SectionRulesMaybe publicData={publicData} />
+                  <div className={css.sectionMap}> 
+                  
+                      <Iframe 
+                        url="https://www.google.com/maps/embed?pb=!4v1597700263778!6m8!1m7!1sCAoSLEFGMVFpcE1iWGxROHZJTzA5WlJ4dWtPZkpzZjRXN2N4c3pZOXlEcF8xaFJS!2m2!1d51.5595509!2d-0.2809779!3f307!4f0!5f0.7820865974627469"
+                        width="300px"
+                        height="600px"
+                        id="myId"
+                        className="sectionMap"
+                        display="initial"
+                        position="relative"
+                        styles={{}}
+                        />
+                  </div>
+                 
                   <SectionMapMaybe
                     geolocation={geolocation}
                     publicData={publicData}
