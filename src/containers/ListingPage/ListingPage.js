@@ -445,13 +445,12 @@ export class ListingPageComponent extends Component {
                   
                       <Iframe 
                         url="https://my.matterport.com/show/?m=pxzSigb4rRt"
-                        width="300px"
-                        height="600px"
+                        width="100%"
+                        height="640px"
                         id="myId"
                         className="sectionMap"
                         display="initial"
                         position="relative"
-                        styles={{}}
                         />
                   </div>
                  
