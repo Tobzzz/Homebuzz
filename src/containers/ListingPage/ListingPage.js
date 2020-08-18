@@ -444,7 +444,7 @@ export class ListingPageComponent extends Component {
                   <div className={css.sectionMap}> 
                   
                       <Iframe 
-                        url="https://www.google.com/maps/embed?pb=!4v1597700263778!6m8!1m7!1sCAoSLEFGMVFpcE1iWGxROHZJTzA5WlJ4dWtPZkpzZjRXN2N4c3pZOXlEcF8xaFJS!2m2!1d51.5595509!2d-0.2809779!3f307!4f0!5f0.7820865974627469"
+                        url="https://my.matterport.com/show/?m=pxzSigb4rRt"
                         width="300px"
                         height="600px"
                         id="myId"
