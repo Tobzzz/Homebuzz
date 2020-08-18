@@ -8,7 +8,7 @@ import { NamedLink } from '../../components';
 import css from './SectionHowItWorks.css';
 import icon1 from './step1 icon.png';
 import icon2 from './step 2 icon.png';
-import icon3 from './Step3-icon.png';
+import icon3 from './Step3 icon.png';
 
 const SectionHowItWorks = props => {
   const { rootClassName, className } = props;
