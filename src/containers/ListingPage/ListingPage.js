@@ -464,7 +464,6 @@ export class ListingPageComponent extends Component {
                   />
                 </div>
                 <BookingPanel
-                  className={css.sticky}
                   className={css.bookingPanel}
                   listing={currentListing}
                   isOwnListing={isOwnListing}
