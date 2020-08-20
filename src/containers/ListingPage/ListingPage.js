@@ -57,7 +57,7 @@ import SectionReviews from './SectionReviews';
 import SectionHostMaybe from './SectionHostMaybe';
 import SectionRulesMaybe from './SectionRulesMaybe';
 import SectionMapMaybe from './SectionMapMaybe';
-import Iframe from 'react-iframe';
+import MatterPort from './MatterPort.js';
 import css from './ListingPage.css';
 
 const MIN_LENGTH_FOR_LONG_WORDS_IN_TITLE = 16;
@@ -441,19 +441,8 @@ export class ListingPageComponent extends Component {
                   <SectionDescriptionMaybe description={description} />
                   <SectionFeaturesMaybe options={amenityOptions} publicData={publicData} />
                   <SectionRulesMaybe publicData={publicData} />
-                  <div className={css.sectionMap}> 
-                  
-                      <Iframe 
-                        url="https://my.matterport.com/show/?m=pxzSigb4rRt"
-                        width="100%"
-                        height="640px"
-                        id="myId"
-                        className="sectionMap"
-                        display="initial"
-                        position="relative"
-                        />
-                  </div>
-                 
+
+                  <MatterPort />
                   <SectionMapMaybe
                     geolocation={geolocation}
                     publicData={publicData}
@@ -475,6 +464,7 @@ export class ListingPageComponent extends Component {
                   />
                 </div>
                 <BookingPanel
+                  className={css.sticky}
                   className={css.bookingPanel}
                   listing={currentListing}
                   isOwnListing={isOwnListing}
