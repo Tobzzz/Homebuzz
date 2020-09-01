@@ -56,7 +56,7 @@ export const filters = [
     // Note: unlike most prices this is not handled in subunits
     config: {
       min: 0,
-      max: 1000,
+      max: 5000,
       step: 5,
     },
   },
@@ -85,9 +85,9 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
+        { key: 'new build', label: 'New Build' },
+        { key: 'shared', label: 'Shared' },
+        { key: 'Studio', label: 'Studio' },
         { key: 'other', label: 'Other' },
       ],
     },

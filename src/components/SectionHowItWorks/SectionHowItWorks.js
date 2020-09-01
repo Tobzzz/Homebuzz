@@ -6,9 +6,9 @@ import classNames from 'classnames';
 import { NamedLink } from '../../components';
 
 import css from './SectionHowItWorks.css';
-import icon1 from './step1 icon.png';
-import icon2 from './step 2 icon.png';
-import icon3 from './Step3 icon.png';
+import icon1 from './icon id.png';
+import icon2 from './Icon 360.png';
+import icon3 from './icon home.png';
 
 const SectionHowItWorks = props => {
   const { rootClassName, className } = props;
@@ -34,7 +34,7 @@ const SectionHowItWorks = props => {
         </div>
 
         <div className={css.step}>
-        <img src= {icon3} className={css.iconImage} alt="step2"/>
+        <img src= {icon2} className={css.iconImage} alt="step2"/>
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part2Title" />
           </h2>
@@ -44,7 +44,7 @@ const SectionHowItWorks = props => {
         </div>
 
         <div className={css.step}>
-        <img src= {icon2} className={css.iconImage} alt="step3"/>
+        <img src= {icon3} className={css.iconImage} alt="step3"/>
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part3Title" />
           </h2>
