@@ -6,9 +6,9 @@ import classNames from 'classnames';
 import { NamedLink } from '../../components';
 
 import css from './SectionHowItWorks.css';
-import icon1 from './icon id.png';
-import icon2 from './Icon 360.png';
-import icon3 from './icon home.png';
+import icon1 from './icon/icon id.png';
+import icon2 from './icon/Icon 360.png';
+import icon3 from './icon/icon home.png';
 
 const SectionHowItWorks = props => {
   const { rootClassName, className } = props;
