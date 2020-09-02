@@ -24,7 +24,7 @@ const SectionHowItWorks = props => {
 
       <div className={css.steps}>
         <div className={css.step}>
-        <img src= {icon1} className={css.iconImage} alt="step1"/>
+        <img src= {icon3} className={css.iconImage} alt="step1"/>
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part1Title" />
           </h2>
@@ -44,7 +44,7 @@ const SectionHowItWorks = props => {
         </div>
 
         <div className={css.step}>
-        <img src= {icon3} className={css.iconImage} alt="step3"/>
+        <img src= {icon1} className={css.iconImage} alt="step3"/>
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part3Title" />
           </h2>
