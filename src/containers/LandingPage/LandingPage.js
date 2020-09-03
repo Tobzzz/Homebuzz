@@ -12,6 +12,7 @@ import {
   SectionHowItWorks,
   SectionLocations,
   FeaturedListings,
+  FeaturedPoints,
   LayoutSingleColumn,
   LayoutWrapperTopbar,
   LayoutWrapperMain,
@@ -76,6 +77,9 @@ export const LandingPageComponent = props => {
             <li className={css.section}>
               <div className={css.sectionContent}>
                 <FeaturedListings />
+              </div>
+              <div className={css.sectionContent}>
+                <FeaturedPoints />
               </div>
             </li>
           </ul>
