@@ -46,11 +46,8 @@
 }
 
 .iconImage {
-  display: block;
   margin-top: 45px;
   margin-bottom: 10px; 
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 60px;
+  max-width: 60px; 
 
 }
