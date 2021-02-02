@@ -81,10 +81,10 @@ const sentryDsn = process.env.REACT_APP_SENTRY_DSN;
 const usingSSL = process.env.REACT_APP_SHARETRIBE_USING_SSL === 'true';
 
 // Address information is used in SEO schema for Organization (http://schema.org/PostalAddress)
-const addressCountry = 'FI';
-const addressRegion = 'Helsinki';
-const postalCode = '00100';
-const streetAddress = 'Bulevardi 14';
+const addressCountry = 'GB';
+const addressRegion = 'London';
+const postalCode = 'E6 6WT';
+const streetAddress = '2 Tunnan Leys';
 
 // Canonical root url is needed in social media sharing and SEO optimization purposes.
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
@@ -156,7 +156,7 @@ const maps = {
     defaultZoomLevel: 13,
 
     // Color of the circle on the Map component.
-    circleColor: '#c0392b',
+    circleColor: '#4737F',
   },
 
   // Custom marker image to use in the Map component.

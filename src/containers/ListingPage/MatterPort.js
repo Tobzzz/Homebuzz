@@ -8,7 +8,7 @@ import css from './ListingPage.css';
 
 
 // const sdk = sharetribeSdk.createInstance({
-//     clientId: 'a006f8c4-ef5e-4877-8087-7b216f6fa0c4'
+//     // clientId: 'a006f8c4-ef5e-4877-8087-7b216f6fa0c4'
 //   });
 
 
