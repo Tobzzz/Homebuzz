@@ -6,7 +6,11 @@ import { FormattedMessage, injectIntl, intlShape } from '../../util/reactIntl';
 import { propTypes } from '../../util/types';
 import { ensureCurrentUser } from '../../util/data';
 import { isScrollingDisabled } from '../../ducks/UI.duck';
+<<<<<<< HEAD
 import VerifyButton from '@passbase/button/react';
+=======
+import VerifyButton from "@passbase/button/react";
+>>>>>>> 325a6cd9f57ea029cb7a19271091f27087f08a77
 import {
   Page,
   UserNav,
