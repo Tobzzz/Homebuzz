@@ -6,6 +6,7 @@
   "dependencies": {
     "@formatjs/intl-relativetimeformat": "^4.2.1",
     "@mapbox/polyline": "^1.0.0",
+    "@passbase/button": "v3",
     "@sentry/browser": "5.7.1",
     "@sentry/node": "5.7.1",
     "array-includes": "^3.0.3",
@@ -41,7 +42,7 @@
     "raf": "^3.4.0",
     "react": "^16.9.0",
     "react-dates": "^21.3.1",
-    "react-dom": "^16.9.0",
+    "react-dom": "^17.0.1",
     "react-final-form": "^6.3.0",
     "react-final-form-arrays": "^3.1.1",
     "react-google-maps": "^9.4.5",
@@ -60,6 +61,7 @@
     "sharetribe-scripts": "3.1.1",
     "smoothscroll-polyfill": "^0.4.0",
     "source-map-support": "^0.5.9",
+    "styled-components": "^5.2.1",
     "url": "^0.11.0"
   },
   "devDependencies": {
