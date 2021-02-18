@@ -92,7 +92,8 @@ export class ProfileSettingsPageComponent extends Component {
     
 
     return (
-      <Page className={css.root} title={title} scrollingDisabled={scrollingDisabled}>
+      <NoSSR>
+        <Page className={css.root} title={title} scrollingDisabled={scrollingDisabled}>
         <LayoutSingleColumn>
           <LayoutWrapperTopbar>
             <TopbarContainer currentPage="ProfileSettingsPage" />
@@ -113,12 +114,10 @@ export class ProfileSettingsPageComponent extends Component {
                     <FormattedMessage id="ProfileSettingsPage.viewProfileLink" />
                   </NamedLink>
                 ) : null}
-              </div>
-              <NoSSR>       
+              </div> 
               <VerifyButton
                 apiKey="
                 CH6y7QKkAnA3UXTrwU3zHmSOiyfFTVbQp3cRvQ0urdJu2HTQ6EcTh1TNnMNUmG6g" />
-                </NoSSR>
               {profileSettingsForm}
             </div>
           </LayoutWrapperMain>
@@ -127,6 +126,8 @@ export class ProfileSettingsPageComponent extends Component {
           </LayoutWrapperFooter>
         </LayoutSingleColumn>
       </Page>
+      </NoSSR>
+      
     );
   }
 }
