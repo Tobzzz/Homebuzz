@@ -1558,6 +1558,11 @@
   dependencies:
     meow "^6.1.1"
 
+"@mpth/react-no-ssr@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mpth/react-no-ssr/-/react-no-ssr-1.0.1.tgz#4840b157d38b51ef3014959e9de6420e5d788695"
+  integrity sha512-roOiU0MFvoB75kESxKI+w2QVK6DGQLFOPOWzcnFfaVJCuvrpbUf0AgppTtchV/hEVk/ltXpe3lgrQybQpkGO2g==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
