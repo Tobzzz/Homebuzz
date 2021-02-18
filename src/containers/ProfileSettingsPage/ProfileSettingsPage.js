@@ -6,6 +6,7 @@ import { FormattedMessage, injectIntl, intlShape } from '../../util/reactIntl';
 import { propTypes } from '../../util/types';
 import { ensureCurrentUser } from '../../util/data';
 import { isScrollingDisabled } from '../../ducks/UI.duck';
+import NoSSR from 'react-no-ssr';
 import VerifyButton from "@passbase/button/react";
 import {
   Page,
@@ -88,6 +89,7 @@ export class ProfileSettingsPageComponent extends Component {
     ) : null;
 
     const title = intl.formatMessage({ id: 'ProfileSettingsPage.title' });
+    const Loading = () => (<div>Loading...</div>);
 
     return (
       <Page className={css.root} title={title} scrollingDisabled={scrollingDisabled}>
@@ -113,9 +115,11 @@ export class ProfileSettingsPageComponent extends Component {
                 ) : null}
               </div>
               <div>
+              <NoSSR onSSR={<Loading />}>       
               <VerifyButton
                 apiKey="
                 CH6y7QKkAnA3UXTrwU3zHmSOiyfFTVbQp3cRvQ0urdJu2HTQ6EcTh1TNnMNUmG6g" />
+                </NoSSR>
               </div>
               {profileSettingsForm}
             </div>

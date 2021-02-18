@@ -50,6 +50,7 @@
     "react-iframe": "^1.8.0",
     "react-intl": "^3.1.13",
     "react-moment-proptypes": "^1.6.0",
+    "react-no-ssr": "^1.1.0",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.0.1",
     "react-sticky": "^6.0.3",
