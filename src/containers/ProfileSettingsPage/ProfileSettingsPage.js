@@ -6,8 +6,6 @@ import { FormattedMessage, injectIntl, intlShape } from '../../util/reactIntl';
 import { propTypes } from '../../util/types';
 import { ensureCurrentUser } from '../../util/data';
 import { isScrollingDisabled } from '../../ducks/UI.duck';
-import NoSSR from 'react-no-ssr';
-import VerifyButton from "@passbase/button/react";
 import {
   Page,
   UserNav,
@@ -92,7 +90,6 @@ export class ProfileSettingsPageComponent extends Component {
     
 
     return (
-      <NoSSR>
         <Page className={css.root} title={title} scrollingDisabled={scrollingDisabled}>
         <LayoutSingleColumn>
           <LayoutWrapperTopbar>
@@ -115,9 +112,6 @@ export class ProfileSettingsPageComponent extends Component {
                   </NamedLink>
                 ) : null}
               </div> 
-              <VerifyButton
-                apiKey="
-                CH6y7QKkAnA3UXTrwU3zHmSOiyfFTVbQp3cRvQ0urdJu2HTQ6EcTh1TNnMNUmG6g" />
               {profileSettingsForm}
             </div>
           </LayoutWrapperMain>
@@ -126,7 +120,6 @@ export class ProfileSettingsPageComponent extends Component {
           </LayoutWrapperFooter>
         </LayoutSingleColumn>
       </Page>
-      </NoSSR>
       
     );
   }
