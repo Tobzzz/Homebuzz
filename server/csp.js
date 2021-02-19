@@ -98,7 +98,7 @@ module.exports = (reportUri, enforceSsl, reportOnly) => {
   // const customDirectives = {
     // Example: Add custom directive override
   //  imgSrc: exampleImgSrc,
-  };
+  // };
 
   // Example: extend default img directive with custom domain
    const { connectSrc = [self] } = defaultDirectives;
