@@ -23,6 +23,10 @@
   hyphens: auto;
 }
 
+.pbButton{
+  margin-bottom: 20px,
+}
+
 .profileLink {
   @apply --marketplaceButtonStylesSecondary;
   @apply --marketplaceH5FontStyles;
