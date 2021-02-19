@@ -4,11 +4,11 @@ import { Button } from "../../components";
 
 export default function VerifyIdentity() {
   
-    const handlePassbaseResult = (err, authKey) => {
+   /* const handlePassbaseResult = (err, authKey) => {
       if (!err) {
         console.log(authKey);
       }
-    };
+    }; */
   
     const { ref: passbaseRef, invokePassabe } = usePassbase({
       onFinished: handlePassbaseResult,
