@@ -1,5 +1,5 @@
 import React from "react";
-import { usePassbase } from "./usePassbase";
+import { usePassbase } from "../../hooks/usePassbase";
 import { Button } from "../../components";
 
 export default function VerifyIdentity() {
