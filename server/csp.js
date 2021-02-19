@@ -101,7 +101,7 @@ module.exports = (reportUri, enforceSsl, reportOnly) => {
   // };
 
   // Example: extend default img directive with custom domain
-   const { connectSrc = [self] } = defaultDirectives;
+   const { connectSrc = [baseUrl] } = defaultDirectives;
    const passBaseSrc = connectSrc.concat('https://api.passbase.com');
 
   const customDirectives = {
