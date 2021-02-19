@@ -9,7 +9,7 @@ export default function VerifyIdentity() {
         console.log(authKey);
       }
     };
-    
+
     const { ref: passbaseRef, invokePassabe } = usePassbase({
       onFinished: handlePassbaseResult,
     });
@@ -17,6 +17,6 @@ export default function VerifyIdentity() {
     return (
         
       
-             <div ref={passbaseRef} />
+             <div ref={passbaseRef} ></div>
     )
   }
