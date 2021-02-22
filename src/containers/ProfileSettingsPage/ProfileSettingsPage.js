@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
@@ -18,9 +19,13 @@ import {
 } from '../../components';
 import { ProfileSettingsForm } from '../../forms';
 import { TopbarContainer } from '../../containers';
-import VerifyIdentity from './VerifyIdentity';
 import { updateProfile, uploadImage } from './ProfileSettingsPage.duck';
 import css from './ProfileSettingsPage.css';
+
+const DynamicComponentWithNoSSR = dynamic(
+  () => import('@passbase/button/react'),
+  { ssr: false }
+)
 
 const onImageUploadHandler = (values, fn) => {
   const { id, imageId, file } = values;
@@ -111,7 +116,12 @@ export class ProfileSettingsPageComponent extends Component {
                   </NamedLink>
                 ) : null}
               </div>
-              <VerifyIdentity />
+              <div>
+                <DynamicComponentWithNoSSR 
+                  apiKey=
+                  "CH6y7QKkAnA3UXTrwU3zHmSOiyfFTVbQp3cRvQ0urdJu2HTQ6EcTh1TNnMNUmG6g"
+                />
+              </div>
               {profileSettingsForm}
             </div>
           </LayoutWrapperMain>
