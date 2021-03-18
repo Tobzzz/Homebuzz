@@ -117,10 +117,18 @@ export class ProfileSettingsPageComponent extends Component {
                 ) : null}
               </div>
               <div>
+              { user.id ? (
                 <DynamicComponentWithNoSSR 
                   apiKey=
                   "CH6y7QKkAnA3UXTrwU3zHmSOiyfFTVbQp3cRvQ0urdJu2HTQ6EcTh1TNnMNUmG6g"
-                />
+                  onFinish={(identityAccessKey) => {}}
+                  prefillAttributes={{
+                  email: (user.attributes.email)
+                         }}
+                        />
+              ) : null}
+    
+               
               </div>
               {profileSettingsForm}
             </div>
