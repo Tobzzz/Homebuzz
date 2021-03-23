@@ -8,7 +8,7 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.css';
 
-import brixtonImage from './images/brikky (1).jpg';
+import brixtonImage from './images/brikky (2).jpg';
 import camdenImage from './images/Camden (1).jpg';
 import shoreditchImage from './images/Shoreditch.jpg';
 import nottinghillImage from './images/Notting hill.jpg';
