@@ -8,9 +8,9 @@ import { NamedLink } from '../../components';
 
 import css from './FeaturedListings.css';
 
-import brixtonImage from './images/Image1.jpg';
-import camdenImage from './images/Image2.jpg';
-import shoreditchImage from './images/Image3.jpg';
+import brixtonImage from './images/studio apartments.jpeg';
+import camdenImage from './images/Lux studio.jpeg';
+import shoreditchImage from './images/shared apartments.jpeg';
 
 
 class LocationImage extends Component {
@@ -52,12 +52,12 @@ const FeaturedListings = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'Studio apartments',
+          'Studio Apartments',
           brixtonImage,
           '?address=London&bounds=51.47030911%2C-0.09591138%2C51.44287872%2C-0.13651028'
         )}
         {locationLink(
-          'Luxuary Aparments',
+          'Luxury Apartments',
           camdenImage,
           '?address=London&bounds=51.55273343%2C-0.1219784%2C51.53102291%2C-0.15417167'
         )}
