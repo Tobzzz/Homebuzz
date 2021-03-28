@@ -4,6 +4,8 @@ import { FormattedMessage } from '../../util/reactIntl';
 import classNames from 'classnames';
 import { NamedLink } from '../../components';
 
+import trustPilot from './socialproof.png';
+
 import css from './SectionHero.css';
 
 const SectionHero = props => {
@@ -30,6 +32,7 @@ const SectionHero = props => {
         >
           <FormattedMessage id="SectionHero.browseButton" />
         </NamedLink>
+        <img src={trustPilot} className={css.imgTrustPilot}></img>
       </div>
     </div>
   );

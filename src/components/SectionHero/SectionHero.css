@@ -108,3 +108,16 @@
     width: 260px;
   }
 }
+ 
+.imgTrustPilot {
+
+  max-width: 350px;
+  margin-top: 20px;
+
+
+  @media (--viewportMedium) {
+    display: block;
+    width: 350px;
+  }
+ 
+}

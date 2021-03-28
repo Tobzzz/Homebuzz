@@ -52,7 +52,7 @@ const FeaturedListings = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'Studio Apartments',
+          'Studio Flats',
           brixtonImage,
           '?address=London&bounds=51.47030911%2C-0.09591138%2C51.44287872%2C-0.13651028'
         )}
@@ -62,7 +62,7 @@ const FeaturedListings = props => {
           '?address=London&bounds=51.55273343%2C-0.1219784%2C51.53102291%2C-0.15417167'
         )}
         {locationLink(
-          'Shared Apartments',
+          'Co-Living Homes',
           shoreditchImage,
           '?address=Shoreditch%2C%20East%20London&bounds=51.53233597%2C-0.06825022%2C51.51890999%2C-0.08815171'
         )}
